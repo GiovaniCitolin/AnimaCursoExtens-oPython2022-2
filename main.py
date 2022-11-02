@@ -2,3 +2,5 @@
 idade = 44
 nome="Giovani"
 print("Minha idade é " +str(idade))
+print("Hello Word")
+print("Meu nome é " +str(nome))
