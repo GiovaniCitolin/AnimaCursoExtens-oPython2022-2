@@ -23,3 +23,10 @@ preco = 299
 imposto =calcular_imposto(preco)
 #exibir na tela
 print(imposto)
+
+#calcula agora com aliquota de 7%
+
+valores = [1.99, 24.50, 78.27, 1515.5]
+#Se eu quiser calcular o imposto destes quatro valores e exibir na tela " o imposto de...é..."(1º preço, ...)
+for valor in valores:
+ print(f"O imposto de {valor} é {calcular_imposto(valor)}")
